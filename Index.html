@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phishing Email Analysis - Task 2</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; background-color: #f5f5f5; }
+    h1, h2, h3 { color: #333; }
+    .container { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    ul { list-style: none; padding-left: 0; }
+    li::before { content: "\2713\0020"; color: green; }
+    code { background-color: #eee; padding: 2px 4px; border-radius: 4px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #eee; }
+    img { max-width: 100%; margin-top: 20px; border: 1px solid #ccc; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Cyber Security Internship - Task 2</h1>
+    <h2>Phishing Email Analysis Documentation</h2>
+
+    <h3>✅ Task Overview</h3>
+    <p><strong>Objective:</strong> Analyze a phishing email sample and identify phishing characteristics.</p>
+    <p><strong>Tools Used:</strong> IP lookup tools, screenshot analysis, knowledge of phishing traits</p>
+
+    <h3>✅ What We Did</h3>
+    <ul>
+      <li>Obtained a sample phishing email (image format)</li>
+      <li>Identified phishing traits: suspicious sender, urgency, spoofing, brand impersonation</li>
+      <li>Performed IP lookup on <code>77.196.86.10</code> using multiple services</li>
+      <li>Analyzed location and ISP data for inconsistencies</li>
+      <li>Acknowledged missing email headers due to image format</li>
+      <li>Explained what headers would have revealed if available</li>
+    </ul>
+
+    <h3>📧 Email Analysis</h3>
+    <p>The email claimed to be from Microsoft regarding a password change. Key phishing indicators included:</p>
+    <ul>
+      <li>Sender: <code>support@msupdate.net</code> (not a valid Microsoft domain)</li>
+      <li>Urgent language prompting a password reset</li>
+      <li>Suspicious links likely pointing to fake login pages</li>
+      <li>Poor grammar and broken sentences</li>
+    </ul>
+    <img src="email_sample.png" alt="Phishing Email Sample">
+
+    <h3>📍 IP Lookup Summary</h3>
+    <p>IP: <code>77.196.86.10</code> — located in France with multiple locations reported:</p>
+    <table>
+      <tr><th>Tool</th><th>City</th><th>Region</th><th>ISP</th></tr>
+      <tr><td>IP2Location</td><td>Boulogne-Billancourt</td><td>Ile-de-France</td><td>SFR SA</td></tr>
+      <tr><td>ipinfo.io</td><td>Tours</td><td>Centre</td><td>Not available</td></tr>
+      <tr><td>DB-IP</td><td>Paris</td><td>Ile-de-France</td><td>SFR User Data</td></tr>
+      <tr><td>IPregistry</td><td>Boulogne-Billancourt</td><td>Ile-de-France</td><td>DSL - End Users</td></tr>
+      <tr><td>IPGeolocation</td><td>Paris</td><td>Ile-de-France</td><td>LDCOM NET</td></tr>
+      <tr><td>ipapi.co</td><td>Tours</td><td>Centre-Val de Loire</td><td>SFR SA</td></tr>
+    </table>
+
+    <p><strong>Conclusion:</strong> The IP does not belong to Microsoft and originates from a location inconsistent with the recipient’s known activity — strong phishing indicator.</p>
+
+    <h3>🔚 Final Notes</h3>
+    <ul>
+      <li>This phishing analysis shows clear signs of a fake Microsoft alert</li>
+      <li>The report includes threat indicators and recommended tools</li>
+      <li>This HTML document serves as documentation for Task 2 submission</li>
+    </ul>
+  </div>
+</body>
+</html>
