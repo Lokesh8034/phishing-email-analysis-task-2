@@ -1,9 +1,3 @@
-Thanks for sharing the detailed HTML content of your **Phishing Email Analysis** project!
-
-Here’s a clean and professional `README.md` based on that information:
-
----
-
 # Phishing Email Analysis - Cyber Security Internship Task 2
 
 ## Overview
@@ -32,6 +26,7 @@ This project focuses on analyzing a phishing email sample to identify common phi
 ## What We Did
 
 * Obtained a phishing email sample in image format
+![image](https://github.com/user-attachments/assets/ec2ce9c8-ff64-47be-954e-38d3b607fcb6)
 * Identified phishing traits such as:
 
   * Sender address not matching legitimate domain (`support@msupdate.net`)
